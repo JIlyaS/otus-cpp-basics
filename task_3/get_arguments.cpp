@@ -32,22 +32,5 @@ ReturnParam get_arguments(int argc, char *argv[]) {
         }
     }
 
-    // if (argc == 3) {
-
-    //   if (strcmp(argv[0], "-max") == 0) {
-    //     std::cout << std::stoi(argv[1]);
-    //   }
-    // }
-
-
-    //   for (int i{0}; i < argc; ++i) {
-    //     // argv[i]. == "-max"
-    //    if(strcmp(argv[i], "-max") == 0) {
-    //       max = std::stoi(argv[i + 1]);
-
-    //       std::cout << max;
-    //    }
-    // }
-
     return param;
 }
